@@ -1,27 +1,30 @@
 """blackjack"""
 def main():
     """main"""
-    num = int(input())
+    cards = int(input())
     result = 0
-    for _ in range(num):
-        card = input()
-        if card.isnumeric() or card == '10':
-            result += int(card)
-        elif card in ('J', 'Q', 'K'):
+    ace = 0
+    for _ in range(cards):
+        num = input()
+        for i in num:
+            if i == 'A':
+                ace += 1
+        if num.isnumeric() or num == '10':
+            result += int(num)
+        elif num in ['J','Q','K']:
             result += 10
-        elif card == 'A':
-            if result < 21 and num == 3:
-                result += 11
-                if result >= 21:
-                    result -= 10
-                if result >= 21:
-                    result -= 10
-            elif result < 21 and num == 2:
-                result += 11
-                if result > 21:
-                    result -= 10
-            else:
-                result -= 10
-                result += 1
+
+    if ace == 1:
+        if result <= 10:
+            result += 11
+        else:
+            result += 1
+    elif ace == 2:
+        if result < 10:
+            result += 12
+        else:
+            result += 2
+    elif ace == 3:
+        result += 13
     print(result)
 main()
