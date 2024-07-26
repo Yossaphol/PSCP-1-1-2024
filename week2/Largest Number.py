@@ -1,9 +1,9 @@
 """Largest Number"""
 def main():
     """main"""
-    num1 = float(input())
-    num2 = float(input())
-    num3 = float(input())
+    num1 = int(input())
+    num2 = int(input())
+    num3 = int(input())
     pos1 = 0
     pos2 = 0
     pos3 = 0
@@ -31,5 +31,5 @@ def main():
         pos1 = num3
         pos2 = num2
         pos3 = num1
-    print(str(int(pos1))+str(int(pos2))+str(int(pos3)))
+    print(str(pos1)+str(pos2)+str(pos3))
 main()

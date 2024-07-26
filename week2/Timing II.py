@@ -10,7 +10,6 @@ def main():
     sec2 = sec % 60
     if day > 9999:
         print("ERR_:__:__:__")
-        
     else:
-        print(f"{day:>04}:{hour}:{mins}:{sec2}")
+        print(f"{day:>04}:{hour:>02}:{mins:>02}:{sec2:>02}")
 main()
