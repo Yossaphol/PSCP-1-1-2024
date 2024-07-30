@@ -10,7 +10,7 @@
 # print(f"{pattern[0:count-1]} = {result}")
 
 pos = input().split()
-x1 = pos[0]
+x1 = int(pos[0])
 y1 = pos[1]
 x2 = pos[2]
 y2 = pos[3]
