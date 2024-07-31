@@ -1,8 +1,7 @@
 """SurprisingVote"""
 def main(total, highscore):
     """main"""
-    left = total - highscore
-    if highscore - abs(total - 2 * highscore) > 2:
+    if highscore - max(0,total - 2 * highscore) > 2:
         print("Surprising")
     else:
         print("Not surprising")

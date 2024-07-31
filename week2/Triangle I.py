@@ -2,11 +2,10 @@
 a = float(input())
 b = float(input())
 c = float(input())
-if a**2 == b**2 + c**2:
-    print("Yes")
-elif b**2 == a**2 + c**2:
-    print("Yes")
-elif c**2 == a**2 + b**2:
+A = abs(a**2 + b**2 - c**2)
+B = abs(a**2 + c**2 - b**2)
+C = abs(b**2 + c**2 - a**2)
+if A <= 0.01 or B <= 0.01 or C <= 0.01:
     print("Yes")
 else:
     print("No")
