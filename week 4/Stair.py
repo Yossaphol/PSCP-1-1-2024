@@ -13,7 +13,7 @@ def main():
             height += stair
             if height >= tallest:
                 count += 1
-                height = 0
+                height = stair
     if height >= 0:
         print(count)
     else:
