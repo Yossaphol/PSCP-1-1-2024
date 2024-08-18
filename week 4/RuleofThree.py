@@ -11,6 +11,9 @@ def main():
         perbaht = weight / price
         if perbaht1 == weight / price:
             perbaht1 = perbaht
+            if lessprice > price:
+                lessprice = price
+                lessweight = weight
         elif perbaht1 < weight / price:
             perbaht1 = perbaht
             lessprice = price

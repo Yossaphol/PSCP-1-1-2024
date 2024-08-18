@@ -28,7 +28,7 @@ def main():
         if numlotto in ('999998', '000000'):
             result += 100000
     if int(numlotto) in (int(winning) + 1, int(winning) - 1) and\
-        not numlotto in ('000001', '999999', '999998', '000000'):
+        not numlotto in ('000001', '000000'):
         result += 100000
     print(result)
 main()
