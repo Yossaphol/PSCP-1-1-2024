@@ -14,3 +14,8 @@ def donut(a,b,c,d):
             pay += b*a
     print(pay,donuts)
 donut(int(input()),int(input()),int(input()),int(input()))
+
+# a #price of donut per piece
+# b #buy (piece)
+# c #get free (piece)
+# d #want (piece)

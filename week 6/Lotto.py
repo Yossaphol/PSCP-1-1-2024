@@ -22,13 +22,12 @@ def main():
     if numlotto.endswith(lasts3_2):
         result += 4000
     if winning == '000000':
-        if numlotto in ('000001', '999999'):
+        if numlotto in ('999999'):
             result += 100000
     if winning == '999999':
-        if numlotto in ('999998', '000000'):
+        if numlotto in ('000000'):
             result += 100000
-    if int(numlotto) in (int(winning) + 1, int(winning) - 1) and\
-        not numlotto in ('000001', '000000'):
+    if int(numlotto) in (int(winning) + 1, int(winning) - 1):
         result += 100000
     print(result)
 main()

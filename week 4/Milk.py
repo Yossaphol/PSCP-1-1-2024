@@ -1,13 +1,16 @@
 """Milk"""
 def main():
     """main"""
-    a = float(input())
-    b = int(input())
-    c = int(input())
-    d = float(input())
-    bottle = d // a
-    promotion = bottle // b
-    sumpromotion = promotion * c
-    result = bottle + sumpromotion
-    print(int(result))
+    price = float(input())
+    lid = int(input())
+    free = int(input())
+    wallet = float(input())
+    if not lid:
+        amount = wallet // price
+        print(int(amount))
+    else:
+        box = lid * price
+        amount = wallet // box
+        result = (lid + free) * amount
+        print(int(result))
 main()
