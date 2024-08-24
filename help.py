@@ -25,4 +25,4 @@
 #     else:
 #         print("Others")
 
-help(min)
+help(str)
