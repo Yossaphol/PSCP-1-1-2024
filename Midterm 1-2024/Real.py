@@ -110,11 +110,4 @@ def main():
     two = circuit2(input(),input(),input(),input(),input(),input(),input(),input())[1]
     three = circuit3(input(),input(),input(),input(),input(),input(),input(),input())[1]
     print(one, two, three)
-    print(circuit1(input(),input(),input(),input(),input(),input(),input(),input()))
-    print(circuit1(input(),input(),input(),input(),input(),input(),input(),input())[1])
-    print(circuit2(input(),input(),input(),input(),input(),input(),input(),input()))
-    print(circuit2(input(),input(),input(),input(),input(),input(),input(),input())[1])
-    print(circuit3(input(),input(),input(),input(),input(),input(),input(),input()))
-    print(circuit3(input(),input(),input(),input(),input(),input(),input(),input())[1])
-    print('dawd')
 main()
