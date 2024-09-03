@@ -1,16 +1,19 @@
 """Milk"""
-def main():
+def main(a,b,c,d):
     """main"""
-    price = float(input())
-    lid = int(input())
-    free = int(input())
-    wallet = float(input())
-    if not lid:
-        amount = wallet // price
-        print(int(amount))
+    s3t = d // a
+    bottle = 0
+    money = a
+    result = 0
+    if not b:
+        print(s3t)
     else:
-        box = lid * price
-        amount = wallet // box
-        result = (lid + free) * amount
-        print(int(result))
-main()
+        while money < d:
+            money += a
+            bottle += 1
+            result += 1
+            if bottle == b:
+                bottle = 1
+                result += c
+    print(int(result))
+main(float(input()), int(input()),int(input()),float(input()))
