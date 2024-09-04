@@ -3,13 +3,15 @@
 This is all Task that I can do on PSCP 2024 Version. Hope these things can help you guys
 
 
+
 ## Files
 
 I have separated each week's files into separate weekly folders, and the exam and mock exam files are separated too.
 
+
 ## Exam Score
 
-My scores in **midterm** and final exam.
+My scores in **midterm** and **final** exam.
 
 |NUMBER          |NAME                           |SCORES (10,000)              |
 |----------------|-------------------------------|-----------------------------|
