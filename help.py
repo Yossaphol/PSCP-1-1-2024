@@ -1,2 +1,1 @@
-import math
-help(math)
+print(10**-4)

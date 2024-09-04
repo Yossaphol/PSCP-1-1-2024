@@ -16,3 +16,32 @@
 # 1 บรรทัด
 
 # ตามเงื่อนไขของโจทย์ ตัวเลขจำนวนจริง หรือ ตัวเลขสัญกรณ์วิทยาศาสตร์
+
+
+
+"""scientific notation"""
+def main(num):
+    """main"""
+    fill = ''
+    power = 0
+    indexpower = 0
+    if num.find('x') == -1:
+        #134.314
+        pass
+    else:
+        for i in num:
+            if i == ' ':
+                break
+            fill += i
+        for i in num:
+            if i == '^':
+                power = indexpower
+            indexpower += 1
+        ispower = num[power+1:]
+        result = float(fill) * (10**int(ispower))
+        # if num.find('-') == -1:
+        #     result = float(fill) * (10**int(ispower))
+        # else:
+        #     result = float(fill) * (10**int(ispower))
+    print(result)
+main(input())
