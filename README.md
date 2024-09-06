@@ -7,9 +7,9 @@ This is all Task that I can do on PSCP 2024 Version. Hope these things can help 
 ## Files
 
 I have separated each week's files into separate weekly folders, and the exam and mock exam files are separated too.
-- [Recommend For Exam]()
-- [Mock Exam]()
-- [Midterm 1-2024]()
+- [Recommend For Exam](https://github.com/Yossaphol/pscp-1-2024/tree/main/Recommend)
+- [Mock Exam](https://github.com/Yossaphol/pscp-1-2024/tree/main/Mock%20Exam)
+- [Midterm 1-2024](https://github.com/Yossaphol/pscp-1-2024/tree/main/Midterm%201-2024)
 - [week 0](https://github.com/Yossaphol/pscp-1-2024/tree/main/week%200)
 - [week 1](https://github.com/Yossaphol/pscp-1-2024/tree/main/week%201)
 - [week 2](https://github.com/Yossaphol/pscp-1-2024/tree/main/week%202)
