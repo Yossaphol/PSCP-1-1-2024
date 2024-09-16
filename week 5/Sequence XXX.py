@@ -1,12 +1,15 @@
 """Sequence xxx"""
-def main():
+def main(square, n):
     """main"""
-    num = int(input())
-    for i in range(num):
-        for j in range(num):
-            if i == j or j == num - 1 or i == 0 or j == 0 or i == num - 1 or i == num - j - 1:
-                print("*",end='')
-            else:
-                print(" ",end='')
+    for i in range(square):
+        for _ in range(n):
+            for k in range(square):
+                if not k or i==square - 1 or i==square - k - 1:
+                    print("*",end='')
+                elif i==k or k==square - 1 or not i:
+                    print("*", end='')
+                else:
+                    print(" ",end='')
+            print(' ',end='')
         print()
-main()
+main(int(input()), int(input()))

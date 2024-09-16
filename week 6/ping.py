@@ -1,19 +1,5 @@
 """ping"""
-def main():
+def main(txt, space ,ping ,re1 ,re2 ,re3 ,re4):
     """main"""
-    txt = input()
-    space = input()
-    ping = input()
-    re1 = input()
-    re2 = input()
-    re3 = input()
-    re4 = input()
-    check = True
-    resultping = ''
-    for i in ping:
-        if i == '[':
-            resultping += i
-main()
-
-
-#not pass
+    
+main(input(), input(), input(), input(), input(), input(), input())
