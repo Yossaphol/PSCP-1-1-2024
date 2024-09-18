@@ -18,6 +18,9 @@ I have separated each week's files into separate weekly folders, and the exam an
 - [week 5](https://github.com/Yossaphol/pscp-1-2024/tree/main/week%205)
 - [week 6](https://github.com/Yossaphol/pscp-1-2024/tree/main/week%206)
 - [week 7](https://github.com/Yossaphol/pscp-1-2024/tree/main/week%207)
+- [week 10]()
+- [week 11]()
+- [week 12]()
 
 ## Exam Score
 
