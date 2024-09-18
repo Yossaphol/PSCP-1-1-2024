@@ -24,7 +24,7 @@ I have separated each week's files into separate weekly folders, and the exam an
 
 ## Exam Score
 
-My scores in **midterm** and **final** exam.
+My scores in **midterm** exam.
 
 |NUMBER          |NAME                           |SCORES (10,000)              |
 |----------------|-------------------------------|-----------------------------|
@@ -36,3 +36,14 @@ My scores in **midterm** and **final** exam.
 |6               |Digital                        |9845.00                      |
 |7               |Real                           |16.67                        |
 |8               |Game                           |10000.00                     |
+
+
+My scores in **final** exam.
+|NUMBER          |NAME                           |SCORES (10,000)              |
+|----------------|-------------------------------|-----------------------------|
+|1               |                               |0.00                         |
+|1               |                               |0.00                         |
+|1               |                               |0.00                         |
+|1               |                               |0.00                         |
+|1               |                               |0.00                         |
+|1               |                               |0.00                         |
