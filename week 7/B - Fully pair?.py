@@ -2,6 +2,7 @@
 def main(txt):
     """main"""
     result = ''
+    ans = ''
     for i in txt:
         if txt.count(i)%2 == 0:
             txt = txt.replace(i,'')
