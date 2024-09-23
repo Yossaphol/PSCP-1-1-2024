@@ -15,16 +15,16 @@ def main(num, txt):
             y = x + num
             if i.isupper() and y < 65:
                 y = 90
-                y = x + num
+                y = y + num
             elif i.isupper() and y > 90:
                 y = 65
-                y = x + num
+                y = y + num
             elif i.islower() and y > 122:
-                y = 122
-                y = x + num
+                y = 96
+                y = y + num
             elif i.islower() and y < 97:
-                y = 122
-                y = x + num
+                y = 123
+                y = y + num
             new += chr(y)
     print(new)
 main(int(input()),input())
