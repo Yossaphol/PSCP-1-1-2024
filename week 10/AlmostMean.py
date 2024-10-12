@@ -1,15 +1,17 @@
 """Almostmean"""
 def main(n):
     """main"""
-    allscore = 0
-    my_list = []
-    for _ in range(n):
-        score = input()
-        my_list.append(score.split())
-    print(my_list)
+    info = []
+    score_total = 0
+    new = []
     for i in range(n):
-        allscore += float(my_list[i][1])
-    mean = allscore / n
-    print(mean)
-    
+        info.append(input().split())
+        score_total += float(info[i][1])
+    avg = score_total / n
+    for j in info:
+        gap = avg - float(j[1])
+        if gap >= 0:
+            new.append(j)
+    l = sorted(new,key = lambda x:float(x[1]))
+    print(f"{l[-1][0]}\t{l[-1][1]}")
 main(int(input()))

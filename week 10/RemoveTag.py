@@ -1,14 +1,8 @@
 """RemoveTag"""
-def main(txt):
+def main():
     """main"""
-    result = []
-    storage = ''
-    for i in txt:
-        if i == '>':
-            if i == '<':
-                continue
-            result += i
-        if i == '<':
-            result.append(storage[1:].split())
-    print(result)
-main(input())
+    word = input().replace("<", "*<").replace(">", ">*").split("*")
+    ans = list(filter(lambda x, ok="<": ok not in x, word))
+    answer = ' '.join(ans)
+    print(answer.split())
+main()

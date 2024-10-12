@@ -12,3 +12,6 @@ print((10, 'hello') > (9, 'moon'))
 print(('moon', 10) > ('world', 20))
 print(('10', 'world') > ('2', 'world'))
 print((10, 11, 12, 1) > (10, 11, 12, 2))
+
+ts = 'abcdefg'
+print(ts[::-1])
