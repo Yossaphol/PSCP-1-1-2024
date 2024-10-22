@@ -26,9 +26,17 @@
 #     print(muy[i])
 # print(muy)
 
-dictt = {'car':'honda', 'serie':'cmd', 'year':2014,'color':'white'}
-for i in dictt:
-    print(i)
+# dictt = {'car':'honda', 'serie':'cmd', 'year':2014,'color':'white'}
+# for i in dictt:
+#     print(i)
 
-for j in dictt:
-    print(dictt[j])
+# for j in dictt:
+#     print(dictt[j])
+
+
+fruit = ('apple', 'banana', 'grape')
+color = ('red', 'yellow', 'green', 'purple')
+
+mix = zip(fruit, color)
+print(mix)
+print(tuple(mix))
