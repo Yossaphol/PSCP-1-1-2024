@@ -16,12 +16,19 @@
 # ts = 'abcdefg'
 # print(ts[::-1])
 
-muy = []
-for i in range(5):
-    n = input()
-    muy.append(n)
+# muy = []
+# for i in range(5):
+#     n = input()
+#     muy.append(n)
 
-muy.sort(key=len, reverse=True)
-for i in range(len(muy)):
-    print(muy[i])
-print(muy)
+# muy.sort(key=len, reverse=True)
+# for i in range(len(muy)):
+#     print(muy[i])
+# print(muy)
+
+dictt = {'car':'honda', 'serie':'cmd', 'year':2014,'color':'white'}
+for i in dictt:
+    print(i)
+
+for j in dictt:
+    print(dictt[j])
