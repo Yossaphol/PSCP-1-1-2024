@@ -34,9 +34,21 @@
 #     print(dictt[j])
 
 
-fruit = ('apple', 'banana', 'grape')
-color = ('red', 'yellow', 'green', 'purple')
+# fruit = ('apple', 'banana', 'grape')
+# color = ('red', 'yellow', 'green', 'purple')
 
-mix = zip(fruit, color)
-print(mix)
-print(tuple(mix))
+# mix = zip(fruit, color)
+# print(mix)
+# print(tuple(mix))
+
+# list1 = ["tree", "banana", "apple", "pie"]
+# # list1 = sorted(list1, key=len)
+# list1.sort(key=len)
+# print(list1)
+
+
+
+# list1 = [[1, 2],[3, [4, 5], 6]]
+# print(list1[1][1][1])
+import json
+help(json)

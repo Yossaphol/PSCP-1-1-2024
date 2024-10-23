@@ -83,3 +83,18 @@ name = ['aaa', 'bbbbbb', 'c', 'dd']
 print(f"name default : {name}")
 name.sort(key=len)
 print(f"sorted list : {name}")
+
+
+#list to string
+list1 = ['aa', 'bbb', 'c', 'dd', 'eee', 'f']
+print(' '.join(list1))
+print(*list1)
+print(*list1, sep='\n')
+#string to list - use json and not use json
+#use json
+import json
+txt = '["aa", "bbb", "c", "dd"]'
+print(json.loads(txt))
+#don't use json
+text = 'hello world and banana i love u'
+print(text.split())
