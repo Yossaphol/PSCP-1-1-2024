@@ -11,7 +11,7 @@ print(setB)
 #REMOVE ถ้าไม่มีข้อมูลจะขึ้นค่า error
 setB.remove(7)
 print(setB)
-"""setB.reove(9)
+"""setB.remove(9)
 print(setB)"""
 #UPDATE
 x = {1,2,3,4,5,6}

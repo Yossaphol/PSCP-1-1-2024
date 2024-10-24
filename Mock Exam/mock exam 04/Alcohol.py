@@ -1,7 +1,9 @@
 """Alcohol"""
-def main(sex, weight, license, volume, alc, amount, hour):
+def main(sex, weight, licen, volume, alc):
     """main"""
-    if license == 'Yes':
+    amount = int(input())
+    hour = int(input())
+    if licen == 'Yes':
         drunk = (volume * (alc)) / 100
         past = 15 * hour
         if sex == 'Male':
@@ -19,4 +21,4 @@ def main(sex, weight, license, volume, alc, amount, hour):
                 print('Safe')
     else:
         print('Not Safe')
-main(input(), float(input()), input(), float(input()), float(input()), int(input()), int(input()))
+main(input(), float(input()), input(), float(input()), float(input()))

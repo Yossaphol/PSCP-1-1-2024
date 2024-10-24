@@ -37,3 +37,6 @@ for k in score.keys():
 
 for v in score.values():
     print(v)
+
+for i in score:
+    print(i, score[i])
