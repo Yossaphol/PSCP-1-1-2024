@@ -11,7 +11,7 @@ color = ('red', 'yellow', 'green', 'purple')
 
 mix = zip(fruit, color)
 print(mix)
-print(tuple(mix))
+print(list(mix))
 
 
 

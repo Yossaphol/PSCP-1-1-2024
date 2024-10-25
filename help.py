@@ -50,5 +50,6 @@
 
 # list1 = [[1, 2],[3, [4, 5], 6]]
 # print(list1[1][1][1])
-import json
-help(json)
+lst = [1,2,3,4,5]
+lst.pop(4)
+print(lst)
