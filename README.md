@@ -40,7 +40,7 @@ My scores in **midterm** exam.
 |8               |Game                           |10000.00                     |
 
 
-My scores in **final** exam.
+My scores in **final** exam. (jum mai dai eiei)
 |NUMBER          |NAME                           |SCORES (10,000)              |
 |----------------|-------------------------------|-----------------------------|
 |1               |Paper                          |0.00                         |
